@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     paddingHorizontal: 30,
     paddingVertical: 200,
+    backgroundColor: '#ffe066',
   },
   text: {
     fontSize: 30,
