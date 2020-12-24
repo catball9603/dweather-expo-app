@@ -12,8 +12,8 @@ export default function Loading() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-end',
-    paddingHorizontal: 30,
+    justifyContent: 'center',
+    paddingHorizontal: 20,
     paddingVertical: 200,
     backgroundColor: '#ffe066',
   },
