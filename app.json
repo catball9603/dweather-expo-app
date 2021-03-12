@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "expo-weather-app",
-    "slug": "expo-weather-app",
+    "name": "Dweather",
+    "slug": "Dweather",
     "version": "1.0.0",
+    "platforms": ["android", "web", "ios"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,16 +14,11 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "UIBackgroundModes": [
-          "location",
-          "fetch"
-        ]
+        "UIBackgroundModes": ["location", "fetch"]
       }
     },
     "android": {
