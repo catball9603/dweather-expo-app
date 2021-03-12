@@ -29,12 +29,16 @@ export default function App() {
 
   const geoLocation = async () => {
     try {
+      //request permission
       await Location.requestPermissionsAsync();
+
+      //get geolocation
       const {
         coords: { latitude, longitude },
       } = await Location.getCurrentPositionAsync();
+
+      //Send to API and get weather
       getWeather(latitude, longitude);
-      //Send to API and get weatherw
       console.log(latitude, longitude);
     } catch (e) {
       Alert.alert("Can't find you", 'So sad');

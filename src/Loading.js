@@ -15,11 +15,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 20,
     paddingVertical: 200,
-    backgroundColor: '#ffe066',
+    backgroundColor: '#00c2ff',
   },
   text: {
     fontSize: 30,
     fontWeight: '300',
-    color: '#212529',
+    color: '#fff',
   },
 });
